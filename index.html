@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Esteban Designer — Estudio de Diseño Creativo</title>
+  <link rel="icon" href="assets/logos/e-white.png">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+  <!-- HEADER / NAV -->
+  <header class="site-header" id="top">
+    <nav class="nav container">
+      <a href="#top" class="nav-brand">
+        <img src="assets/logos/e-white.png" alt="Esteban Designer" class="nav-mark">
+      </a>
+      <ul class="nav-links">
+        <li><a href="#sobre-mi">Sobre mí</a></li>
+        <li><a href="#trabajos">Trabajos</a></li>
+        <li><a href="#contacto">Contacto</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <!-- HERO -->
+  <section class="hero">
+    <div class="glow glow-1"></div>
+    <div class="glow glow-2"></div>
+    <div class="container hero-inner">
+      <div class="hero-visual">
+        <img src="assets/logos/logo-horizontal-tag-white.png" alt="Esteban Designer — Estudio de Diseño Creativo" class="hero-logo">
+        <div class="constellation">
+          <svg class="constellation-lines" viewBox="0 0 100 100" preserveAspectRatio="none">
+            <line x1="50" y1="50" x2="14" y2="10"/>
+            <line x1="50" y1="50" x2="86" y2="8"/>
+            <line x1="50" y1="50" x2="50" y2="5"/>
+            <line x1="50" y1="50" x2="12" y2="82"/>
+            <line x1="50" y1="50" x2="88" y2="84"/>
+          </svg>
+          <span class="star s1">Branding</span>
+          <span class="star s2">Identidad visual</span>
+          <span class="star s3">Diseño UX-UI</span>
+          <span class="star s4">Social media</span>
+          <span class="star s5">Piezas publicitarias</span>
+        </div>
+      </div>
+      <a href="#sobre-mi" class="btn">Conóceme</a>
+    </div>
+  </section>
+
+  <!-- SOBRE MÍ -->
+  <section class="section" id="sobre-mi">
+    <div class="container about-grid">
+      <div>
+        <h2>Sobre mí</h2>
+        <p>
+          Soy <strong>Esteban</strong>, diseñador gráfico y fundador de <strong>Esteban Designer</strong>,
+          un estudio de diseño creativo enfocado en construir marcas con personalidad. Me apasiona
+          transformar ideas en experiencias visuales memorables, combinando tipografía, composición
+          y narrativa visual en cada pieza.
+        </p>
+        <p>
+          Como agencia de <strong>branding e identidad visual</strong>, creamos sistemas
+          de marca completos: desde el logotipo y la paleta de color hasta la señalética, piezas
+          digitales y materiales promocionales que conectan con el público.
+        </p>
+        <p>
+          También desarrollamos <strong>diseño multimedia</strong> para redes sociales, campañas
+          publicitarias, motion graphics y contenidos audiovisuales que dan vida a cada proyecto.
+        </p>
+      </div>
+      <aside class="about-card">
+        <h3>Habilidades</h3>
+        <ul>
+          <li>Photoshop</li>
+          <li>Illustrator</li>
+          <li>Nano Banana</li>
+          <li>Branding</li>
+          <li>Diseño UX/UI</li>
+          <li>Identidad Visual</li>
+        </ul>
+      </aside>
+    </div>
+  </section>
+
+  <!-- TRABAJOS -->
+  <section class="section" id="trabajos">
+    <div class="container">
+      <h2>Trabajos</h2>
+      <p class="section-sub">Haz clic en cada proyecto para verlo completo en Behance.</p>
+      <div class="work-grid">
+        <a class="work-card" href="https://www.behance.net/gallery/229816481/Brasa-Negra-Visual-Identity" target="_blank" rel="noopener">
+          <div class="work-thumb"><img src="assets/trabajos/brasa-negra.png" alt="Brasa Negra"></div>
+          <h3>Brasa Negra</h3>
+          <p>Identidad visual · 2025</p>
+        </a>
+        <a class="work-card" href="https://www.behance.net/gallery/229993477/Mokko-Visual-Identity" target="_blank" rel="noopener">
+          <div class="work-thumb"><img src="assets/trabajos/mokko.png" alt="Mokko"></div>
+          <h3>Mokko</h3>
+          <p>Identidad visual · 2025</p>
+        </a>
+        <a class="work-card" href="https://www.behance.net/gallery/230435313/NEON-CLUB-Visual-identity" target="_blank" rel="noopener">
+          <div class="work-thumb"><img src="assets/trabajos/neon-club.png" alt="Neón Club"></div>
+          <h3>Neón Club</h3>
+          <p>Identidad visual · 2025</p>
+        </a>
+        <a class="work-card" href="https://www.behance.net/gallery/226341129/FUEGO-Visual-identity" target="_blank" rel="noopener">
+          <div class="work-thumb"><img src="assets/trabajos/fuego.png" alt="Fuego Latin Street Grill"></div>
+          <h3>Fuego Latin Street Grill</h3>
+          <p>Identidad visual · 2025</p>
+        </a>
+      </div>
+    </div>
+  </section>
+
+  <!-- CONTACTO -->
+  <section class="section" id="contacto">
+    <div class="container contact">
+      <h2>Contacto</h2>
+      <p>¿Tienes un proyecto en mente? Escríbeme y construyamos algo grande.</p>
+      <form class="contact-form" onsubmit="event.preventDefault(); alert('¡Gracias! Te responderé pronto.');">
+        <input type="text" placeholder="Tu nombre" required>
+        <input type="email" placeholder="Tu correo" required>
+        <textarea placeholder="Cuéntame sobre tu proyecto" rows="4" required></textarea>
+        <button class="btn" type="submit">Enviar mensaje</button>
+      </form>
+      <p class="contact-mail">estebandesigner18@gmail.com</p>
+    </div>
+  </section>
+
+  <footer class="footer">
+    <img src="assets/logos/logo-horizontal-white.png" alt="Esteban Designer" class="footer-logo">
+    <p>© 2026 Esteban Designer — Estudio de Diseño Creativo</p>
+  </footer>
+
+</body>
+</html>
